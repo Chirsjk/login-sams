@@ -1,0 +1,141 @@
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-color: royalblue;
+    
+}
+i.snowflake{
+    position: absolute;
+    width: 0%;
+    animation: snow linear;
+    color: white;
+    font-size: 4px;
+  }
+@keyframes snow{
+  to{
+    transform: translateY(100vh);
+  }
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    
+}
+span{
+    color: #fff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+header{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input-field .input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 0 0 45px;
+    background: rgba(255,255,255,0.1);
+    outline: none;
+    margin-bottom: 32px;
+}
+i{
+    position: relative;
+    top: -33px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{
+    color: #fff;
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    color: black;
+    background: rgba(255,255,255,0.7);
+    cursor: pointer;
+    transition: .3s ;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    background-color: greenyellow;
+}
+.two-col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: small;
+    margin-top: 10px;
+}
+.one{
+    display: flex;
+}
+label a{
+    text-decoration: none;
+    color: #fff;
+}
+.alert-danger{
+background-color: rgba(202, 5, 5, 0.781);
+color: #fff;
+height: 50px;
+left: 55px;
+padding-top: 8px;
+padding-bottom: 1px;
+width: 200px;
+margin: 20px;
+border-radius: 20px;
+border-style: solid;
+text-decoration: double;
+position: relative;
+border-width: 1px;
+box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+.alert-success{
+    background-color: green;
+    color: #fff;
+    height: 50px;
+    left: 55px;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+    border-style: solid;
+    text-decoration: double;
+    position: relative;
+    border-width: 1px;
+    box-shadow: 6px 9px 7px 5px rgba(0, 0, 0, 0.2);
+    text-align: center; 
+}
+.img1{
+    position: relative;
+    left: 9%;
+    width:300px; 
+    height:300px;
+    top:10px;
+    
+}
